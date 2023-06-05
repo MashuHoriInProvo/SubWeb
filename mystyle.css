@@ -1,0 +1,124 @@
+body {
+  background-image: url("https://beiz.jp/images_T/white/white_00032.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+  margin-top: 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+img {
+  display: block;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+a {
+  color: blue;
+}
+
+a:visited {   
+  color: blue;
+}
+
+li {
+  font-style: italic;
+}
+
+li:hover {
+  /*カーソルを合わせたときに少し大きくする*/
+  font-size: 105%;
+  text-decoration: underline;
+  background-color: blue;
+}
+
+.gangnam {
+  font-family: chiller;
+  font-style: italic;
+}
+
+.common {
+  border: 5px solid black;
+  position: absolute;
+}
+
+.nav {
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgb(187, 235, 243);
+}
+
+.footer {
+  position: fixed;
+  background-color: salmon;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: block;
+  text-align: center;
+}
+
+.content {
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.gallery img {
+  display: inline;
+  width: 250px;
+}
+
+/* New font styles and colors */
+
+/* All Caps */
+.all-caps {
+  text-transform: uppercase;
+}
+
+/* Small Caps */
+.small-caps {
+  font-variant: small-caps;
+}
+
+/* Shadow */
+.shadow {
+  text-shadow: 2px 2px #333;
+}
+
+/* Overline */
+.overline {
+  text-decoration: overline;
+}
+
+/* Orange */
+.orange {
+  color: orange;
+}
+
+/* Pink */
+.pink {
+  color: pink;
+}
+
+/* Grey */
+.grey {
+  color: grey;
+}
+
+/* Teal */
+.teal {
+  color: teal;
+}
